@@ -19,7 +19,7 @@ Welcome to your development container!
 This is how you can work with it:
 - Run \`${COLOR_CYAN}${RUN_CMD}${COLOR_RESET}\` to start vcluster
 - Run \`${COLOR_CYAN}devspace enter -n vcluster --pod ${POD_NAME} -c syncer${COLOR_RESET}\` to create another shell into this container
-- Run \`${COLOR_CYAN}kubectl ...${COLOR_RESET}\` from within the container to access the vcluster if its started
+- Run \`${COLOR_CYAN}kubectl ...${COLOR_RESET}\` from within the container to access the vcluster if it's started
 - ${COLOR_CYAN}Files will be synchronized${COLOR_RESET} between your local machine and this container
 
 ${COLOR_CYAN}NOTE:${COLOR_RESET} you may need to provide additional flags through the command line, because the flags set from the chart are ignored in the dev mode.
